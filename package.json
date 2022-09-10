@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome ./tests/firstTest.js"
+    "test": "testcafe chrome ./tests/basic_test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "testcafe": "^2.0.0"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1"
   }
 }
